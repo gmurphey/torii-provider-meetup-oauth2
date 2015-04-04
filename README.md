@@ -1,24 +1,33 @@
-# Torii-provider-meetup-oauth2
+# torii-provider-meetup-oauth2
 
-This README outlines the details of collaborating on this Ember addon.
+This addon allows your Ember.js app to authenticate with Meetup using [Torii](https://github.com/Vestorly/torii).
 
-## Installation
+## Usage
+
+Use the following commands to install to your [Ember CLI](http://www.ember-cli.com/) project.
+
+    ember install:addon torii
+    ember install:addon torii-provider-meetup-oauth2
+
+Then add your `meetup-oauth2` configuration to `config/environment.js`. For more information on configuration, see the [Torii docs](https://github.com/Vestorly/torii#configuring-a-torii-provider).
+
+## Contributing
 
 * `git clone` this repository
 * `npm install`
 * `bower install`
 
-## Running
+### Running
 
 * `ember server`
 * Visit your app at http://localhost:4200.
 
-## Running Tests
+### Running Tests
 
 * `ember test`
 * `ember test --server`
 
-## Building
+### Building
 
 * `ember build`
 
